@@ -49,8 +49,11 @@ t=turtle.Turtle()
 #t.hideturtle()
 t.speed(5)
 drawBorder(t)
-drawPentagram(t,90,3,3)
+position=[(90,3,3),(31,4.83,2),(8.1,6.01,2),(-15.9,6.28,2),(-38.6,5.4,2)]
+for i in position:
+    drawPentagram(t,i[0],i[1],i[2])
+'''drawPentagram(t,90,3,3)
 drawPentagram(t,31,4.83,2)
 drawPentagram(t,8.1,6.01,2)
 drawPentagram(t,-15.9,6.28,2)
-drawPentagram(t,-38.6,5.4,2)
+drawPentagram(t,-38.6,5.4,2)'''
