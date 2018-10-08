@@ -46,7 +46,8 @@ def drawPentagram(m,angle,l,a):
 
 window = turtle.Screen()
 t=turtle.Turtle()
-#t.hideturtle()
+#turtle.screensize(800,800)
+turtle.setup(600,500)#设置画布大小
 t.speed(5)
 drawBorder(t)
 position=[(90,3,3),(31,4.83,2),(8.1,6.01,2),(-15.9,6.28,2),(-38.6,5.4,2)]
