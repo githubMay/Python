@@ -1,13 +1,4 @@
-class rectangle():
-    def __init__(self,width,hight):
-        self.width=width
-        self.hight=hight
-    def getSquare(self):
-        return self.width*self.hight
 
-class square(rectangle):
-    def __init__(self,width,hight):
-        super.__init__(width,hight)'''
 import math
 class rectangle():
     def __init__(self,width,height):
