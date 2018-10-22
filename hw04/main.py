@@ -1,13 +1,3 @@
-'''class a():
-    def __init__(self,a,b):
-        print('abc')
-        self.square=a*b
-    def get(self):
-        return self.a*self.b
-c=[a(1,2),a(3,4),a(5,6)]
-for i in c:
-    print(i.square)'''
-'''
 class rectangle():
     def __init__(self,width,hight):
         self.width=width
